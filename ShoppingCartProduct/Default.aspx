@@ -3,8 +3,8 @@
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
     <div class="jumbotron">
-        <h1 style="color:indianred">My Shopping Website</h1>
-        <p class="lead">The Products shown here are exclusive to this website only.</p>
+        <h1 style="color:indianred">Jim's E-Library</h1>
+        <p class="lead">World's largest Book Selling Platform .</p>
     </div>
 
     <div class="row">

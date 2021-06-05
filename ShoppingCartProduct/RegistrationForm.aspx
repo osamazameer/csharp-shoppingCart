@@ -5,43 +5,53 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title></title>
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <style type="text/css">
+        .auto-style1 {
+            width: 260px;
+        }
+    </style>
 </head>
 <body>
-    <h1 class="text-center focus">NUML GPA CALCULATOR</h1>
+    <h1 class="text-center focus">Library</h1>
     <form id="form1" runat="server">
         <table class="table  text-center">
             <tr>
-                <th>
-                    <label class="form-control text-right">Name :</label>
-                </th>
-                <td colspan="2">
-                    <asp:TextBox ID="txtName" runat="server" CssClass="form-control"></asp:TextBox>
+                <td>
+                </td>
+                <td>
+                    <asp:TextBox ID="txtName" placeholder="Name" runat="server" CssClass="form-control"></asp:TextBox>
+                </td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                </td>
+                <td>
+                    <asp:TextBox ID="txtEmail" placeholder="Email" runat="server" CssClass="form-control"></asp:TextBox>
+                </td>
+                <td>
+                </td>
+                
+            </tr>
+            <tr>
+                <td >
+                </td>
+                <td>
+                    <asp:TextBox ID="txtusername" placeholder="UserName" runat="server" class="form-control"></asp:TextBox>
+                </td>
+                <td>
 
                 </td>
             </tr>
             <tr>
-                <th>
-                    <label class="form-control text-right">Email :</label>
-                </th>
-                <td colspan="2">
-                    <asp:TextBox ID="txtEmail" runat="server" class="form-control"></asp:TextBox>
+                <td>
                 </td>
-            </tr>
-            <tr>
-                <th>
-                    <label class="form-control text-right">UserName :</label>
-                </th>
                 <td colspan="2">
-                    <asp:TextBox ID="txtusername"  runat="server" class="form-control"></asp:TextBox>
+                    <asp:TextBox ID="txtPassword" placeholder="Password" TextMode="Password" runat="server" class="form-control"></asp:TextBox>
                 </td>
-            </tr>
-            <tr>
-                <th>
-                    <label class="form-control text-right">Password :</label>
-                </th>
-                <td colspan="2">
-                    <asp:TextBox ID="txtPassword" TextMode="Password" runat="server" class="form-control"></asp:TextBox>
-                </td>
+                <td></td>
             </tr>
             <tr class="text-center">
                 <td>
@@ -53,7 +63,7 @@
                 </td>
             </tr>
             <tr class="text-center">
-                <td>
+                <td class="auto-style1">
                 </td>
                 <td>
                 </td>
